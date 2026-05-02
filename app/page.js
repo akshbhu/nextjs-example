@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div>
-      <h1>✅ Production: Omega App</h1>
-      <p>This is the production environment - main branch</p>
+      <h1>Production v2: Dark Deploy Test</h1>
+      <p>This deployment should NOT auto-promote to production alias</p>
     </div>
   );
 }
