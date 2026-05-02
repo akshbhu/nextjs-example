@@ -1,7 +1,12 @@
 {
-  "name": "simple-app",
+  "name": "nextjs-example",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p .next && cp index.html .next/"
+    "build": "next build"
+  },
+  "dependencies": {
+    "next": "15.3.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
   }
 }
