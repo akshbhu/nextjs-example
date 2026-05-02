@@ -1,4 +1,8 @@
 export default function Home() {
-  return <h1>Hello from Omega</h1>;
+  return (
+    <div>
+      <h1>🚀 Preview: Feature Login</h1>
+      <p>This is the preview environment - feature/login branch</p>
+    </div>
+  );
 }
-// feature login
