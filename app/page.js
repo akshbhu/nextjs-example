@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div><h1>Gamma Git v1</h1></div>;
+  return <div><h1>Gamma Feature</h1></div>;
 }
