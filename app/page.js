@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div><h1>Full Suite v2</h1></div>;
+  return <div><h1>Suite v1</h1></div>;
 }
