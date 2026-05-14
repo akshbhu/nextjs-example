@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <div style={{ fontFamily: 'system-ui, sans-serif', maxWidth: 600, margin: '80px auto', padding: '0 20px' }}>
-      <div style={{ background: '#dbeafe', color: '#1e40af', padding: '8px 16px', borderRadius: 20, display: 'inline-block', fontSize: 14, marginBottom: 16 }}>
-        🚀 v1 — Auto-deployed from GitHub
+      <div style={{ background: '#dcfce7', color: '#166534', padding: '8px 16px', borderRadius: 20, display: 'inline-block', fontSize: 14, marginBottom: 16 }}>
+        🚀 v2 — Auto-deployed from GitHub
       </div>
       <h1 style={{ fontSize: 36, fontWeight: 700, marginBottom: 8 }}>
         Omega Notepad
@@ -14,11 +14,12 @@ export default function Home() {
         <p style={{ margin: 0, color: '#374151' }}>
           ✅ GitHub push triggers auto-deploy<br/>
           ✅ Production alias routes to latest<br/>
-          ✅ Rollback via UpdateAliasRouting
+          ✅ Rollback via UpdateAliasRouting<br/>
+          🆕 New feature in v2!
         </p>
       </div>
       <p style={{ marginTop: 24, fontSize: 12, color: '#9ca3af' }}>
-        Deployment: v1 • Branch: main
+        Deployment: v2 • Branch: main
       </p>
     </div>
   );
